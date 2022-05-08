@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,300&family=Roboto+Slab&display=swap');
+
+.qna{
+    display:flex;
+    flex-direction:column;
+    margin:0 15%;
+    padding:10px;
+    color:#293264;
+    
+}
+@media only screen and (max-width: 840px)
+{
+
+  .qna{
+      margin:0 17%;
+      
+  }
+  .buttons{
+      justify-content:center;
+      flex-direction:column;
+  }
+  .buttons button{
+      margin-top:10px;
+  }
+}
+.buttons{
+    margin:0;
+    border:none;
+    border-radius:1%;
+    max-width:80%;
+    color:#293264;
+    display:flex;
+    font-family: 'Karla', sans-serif;
+    font-weight: 550;
+    
+}
+.buttons button{
+    margin-right:10px;
+    font-size:1em;
+    border:0.1em solid #293264;
+    border-radius:9px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+

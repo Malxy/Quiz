@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,300&family=Roboto+Slab&display=swap');
+
+body{
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:#F5F7FB;
+    font-family: 'Karla', sans-serif;
+
+}
+.start--content{
+    color:#293264;
+    text-align:center;
+    padding:20px;
+    font-size:2rem;
+}
+.start--button{
+    color:white;
+    background:#4D5B9E;
+    width:386px;
+    height:102px;
+    font-family: 'Karla', sans-serif;
+    font-size:2rem;
+    border:none;
+    border-radius:15px;
+    
+}

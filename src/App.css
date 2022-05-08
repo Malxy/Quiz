@@ -1,0 +1,53 @@
+body{
+    color:black;
+    background:#F5F7FB;
+    font-size:1em;
+
+}  
+
+@media only screen and (max-width: 600px)
+{
+
+    body{
+        font-size:0.8em;
+        margin:0;
+    }
+    .submit--container h2{
+        font-size:1.5em;
+        margin-left:7%;
+     
+    }
+}
+.main--container{
+    display:flex;
+    flex-direction:column;
+}
+.submit--container{
+    margin-top:2%;
+    margin-bottom:2%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color:#293264;
+
+}
+.submit--container h2{
+    margin-right:7%;
+}
+
+.submit--container button{
+    margin:auto 10px;
+    color:white;
+    background:#4D5B9E;
+    width:200px;
+    height:50px;
+    font-family: 'Karla', sans-serif;
+    font-size:1em;
+    border:none;
+    border-radius:15px;
+    
+}
+#bottom-target
+{
+    display:none;
+}
