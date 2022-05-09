@@ -20,7 +20,7 @@ if(props.isSubmited === true)
 }
 
 let content = props.content.replaceAll("&quot;","\"")
-    content = question.replaceAll("&#039;","'")
+    content = content.replaceAll("&#039;","'")
     
 
 return(
