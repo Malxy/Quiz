@@ -19,9 +19,14 @@ if(props.isSubmited === true)
     }
 }
 
+let content = props.content.replaceAll("&quot;","\"")
+    content = question.replaceAll("&#039;","'")
+    
+
 return(
     
-     <button style={styles} className = "buttons" onClick={() => props.toggle(props.id)}>{props.content}</button>
+     <button style={styles} className = "buttons" onClick={() => props.toggle(props.id)}>{
+content}</button>
     
 )
 
